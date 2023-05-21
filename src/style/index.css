@@ -1,0 +1,97 @@
+body
+{
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.top-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 11%;
+    margin-right: 11%;
+    height: 90px;
+    border-bottom: solid 0.5px #c3d8ef;
+   
+}
+.logo{
+    width: 12%;
+    height: 40%;      
+}
+.donate{
+    width: 12%;
+    height: 40%;
+    /* margin-right: 11%; */
+    background-color: #d40356;
+    color: white;
+    border: none;
+}
+.search{
+    width: 20%;
+    height: 40%;
+    border:solid 0.5px black;
+    margin-right: -50%;
+}
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+  
+  }
+  .nav-bar{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    
+    
+  }
+  .nav-bar li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+
+  }
+  .nav-bar li :hover{
+    color: blue;
+    background-color:  #c3d8ef;
+  }
+
+  .nav{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+
+  .rending-page {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+ 
+  
+  }
+  @keyframes mymove {
+    from {background-color: white;}
+    to {background-color: white;}
+  }
+   
+  .background-info{
+    background-color: yellow;
+    width: 30%;
+    
+    
+   
+  }
+  .open{
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  
